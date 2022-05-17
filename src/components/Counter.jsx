@@ -10,7 +10,7 @@ export const Counter = ({ init }) => {
             <button onClick={() => { setCounter(counter + 1) }}>increment</button>
             
             <button onClick={() => {
-                if (counter > 10) {
+                if (counter > 0) {
                     setCounter(counter - 1)
                 }
             }}>decrement </button>
